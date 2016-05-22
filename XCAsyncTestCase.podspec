@@ -11,4 +11,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Kobe-Bryant/XCAsyncTestCase.git", :tag => "#{s.version}" }
   s.source_files = 'AsyncXCTestingKit/AsyncXCTestingKit/XCTestCase+AsyncTesting.{h,m}'
   s.requires_arc = true
+  s.framework = ‘XCTest’
 end
