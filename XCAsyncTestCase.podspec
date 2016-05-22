@@ -16,7 +16,8 @@ Pod::Spec.new do |s|
   s.author       = { "PremoSystems" => "info@premosystems.com" }
   s.source       = { :git => "https://github.com/Kobe-Bryant/XCAsyncTestCase.git", :tag => "#{s.version}" }
   s.source_files = 'AsyncXCTestingKit/AsyncXCTestingKit/XCTestCase+AsyncTesting.{h,m}'
+  s.resources = "**/*.png" 
   s.framework    = 'XCTest'
-  s.ios.deployment_target = "5.0"
+  s.ios.deployment_target = “8.0”
   s.requires_arc = true
 end
